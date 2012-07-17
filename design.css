@@ -1,0 +1,100 @@
+/* These styles just override parts of Simplified Dark */
+@import url('simplified_dark_css/design.css');
+
+/* COWBOY "SIMPLIFIED STEALTH" ADDITIONS */
+
+/* I can't get @font-face to work reliably. Ideas? */
+
+/*@font-face {
+  font-family: 'M+ 2m';
+  font-weight: 100;
+  font-style: normal;
+  src: url('fonts/mplus-2m-light.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'M+ 2m';
+  font-weight: 400;
+  font-style: normal;
+  src: url('fonts/mplus-2m-normal.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'M+ 2m';
+  font-weight: 700;
+  font-style: normal;
+  src: url('fonts/mplus-2m-bold.ttf') format('truetype');
+}*/
+
+body {
+  line-height: 1.35em;
+  font-family: "M+ 2m" !important; /* Yes, this overrides the app-set font! */
+  font-weight: 400;
+  color: #fff;
+  background-color: #181818;
+}
+
+.time {
+  font-style: normal;
+  font-weight: 100;
+}
+
+#topic_bar {
+  font-size: 90%;
+  color: #fff;
+  background: #333;
+  border-bottom: 1px solid #000;
+  opacity: 0.90;
+  -webkit-box-shadow: 0 1px 5px #000;
+}
+
+#topic_bar a,
+a {
+  color: #0080FF;
+  border-color: #0080FF;
+}
+
+#topic_bar a:hover,
+a:hover {
+  color: #40A0FF;
+  border-color: #40A0FF;
+}
+
+body div.line[type*=join],
+body div.line[type*=part],
+body div.line[type*=kick],
+body div.line[type*=quit],
+body div.line[type*=kill],
+body div.line[type*=nick],
+body div.line[type*=mode],
+body div.line[type*=topic],
+body div.line[type*=website] {
+  font-style: italic;
+  font-weight: 100;
+  color: #4a4a4a;
+}
+
+body .inline_nickname {
+  font-weight: 400;
+}
+
+body img {
+  display: inline;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+body div .message:before {
+  font-style: normal;
+  font-weight: 700;
+}
+
+body div[type*=privmsg] .sender[type*=myself] {
+  color: #FF8000;
+}
+
+/* FWIW, this may be the most disgusting thing I've ever written */
+body a[onclick*=hide_inline_image]:before {
+  content: "\A";
+  white-space: pre;
+}
