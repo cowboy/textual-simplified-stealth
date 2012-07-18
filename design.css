@@ -49,13 +49,20 @@ body {
   -webkit-box-shadow: 0 1px 5px #000;
 }
 
+#topic_bar span.channel,
 #topic_bar a,
+span.channel,
 a {
+  cursor: pointer;
   color: #0080FF;
   border-color: #0080FF;
+  text-decoration: none;
+  border-bottom: dotted 1px;
 }
 
+#topic_bar span.channel:hover,
 #topic_bar a:hover,
+span.channel:hover,
 a:hover {
   color: #40A0FF;
   border-color: #40A0FF;
