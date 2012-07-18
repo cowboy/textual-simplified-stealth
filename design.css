@@ -66,6 +66,7 @@ span.channel:hover,
 a:hover {
   color: #40A0FF;
   border-color: #40A0FF;
+  -webkit-user-select: none;
 }
 
 body div.line[type*=join],
