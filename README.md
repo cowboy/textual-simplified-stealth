@@ -25,7 +25,7 @@ Then install the fonts in the `Simplified Stealth/fonts` subdirectory into OS X,
 ## Screenshot
 If the theme installed correctly, you should see something like this, when you select it in the app:
 
-![simplified stealth](http://benalman.com/grab/b008d0.png)
+![simplified stealth](http://benalman.com/grab/513ad4.png)
 
 ## Todos
 
