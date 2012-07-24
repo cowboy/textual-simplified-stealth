@@ -3,9 +3,12 @@
 
 /* COWBOY "SIMPLIFIED STEALTH" ADDITIONS */
 
-/* I can't get @font-face to work reliably. Ideas? */
+/* The following @font-face declrations do not work properly
+in versions of Textual prior to 2.1.1-249. This is because of
+an upstream bug within WebKit that did not provide Textual
+access to the loaded DOM under certain circumstances. */
 
-/*@font-face {
+@font-face {
   font-family: 'M+ 2m';
   font-weight: 100;
   font-style: normal;
@@ -16,7 +19,7 @@
   font-family: 'M+ 2m';
   font-weight: 400;
   font-style: normal;
-  src: url('fonts/mplus-2m-normal.ttf') format('truetype');
+  src: url('fonts/mplus-2m-regular.ttf') format('truetype');
 }
 
 @font-face {
@@ -24,7 +27,7 @@
   font-weight: 700;
   font-style: normal;
   src: url('fonts/mplus-2m-bold.ttf') format('truetype');
-}*/
+}
 
 body {
   line-height: 1.35em;
