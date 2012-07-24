@@ -115,7 +115,8 @@ body div[type*=privmsg] .sender[type*=myself] {
 }
 
 /* FWIW, this may be the most disgusting thing I've ever written */
-body a[onclick*=hide_inline_image]:before {
+body a[onclick*=hide_inline_image]:before,
+body a[onclick*=hideInlineImage]:before { /* This changed recently */
   content: "\A";
   white-space: pre;
 }
