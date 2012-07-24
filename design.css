@@ -92,7 +92,7 @@ body div.line[type*=topic],
 body div.line[type*=website] {
   font-style: italic;
   font-weight: 100;
-  color: #4a4a4a;
+  color: #444;
 }
 
 body .inline_nickname {
