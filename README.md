@@ -6,8 +6,8 @@ Some time therafter, I created a Linkinus Simplified variant called "Stealth" th
 
 ## Notes
 
+ * The font face is hard-coded, meaning that you can't change it via the in-app controls. You can, however change the font size via those controls.
  * This is a work in progress. Meaning that it's not fully tested, so YMMV. That being said, it works great for me.
- * The included fonts must be installed and the font is hard-coded, meaning that you can't change it via the in-app controls. You can, however change the font size via those controls.
 
 ## Installation
 Textual themes are installed into the `~/Library/Containers/com.codeux.irc.textual/Data/Library/Application Support/Textual IRC/Styles` directory. This theme should be installed in a subdirectory, under that directory, called `Simplified Stealth`.
@@ -20,8 +20,6 @@ cd ~/Library/Containers/com.codeux.irc.textual/Data/Library/Application\ Support
 git clone https://github.com/cowboy/textual-simplified-stealth.git 'Simplified Stealth'
 ```
 
-Then install the fonts in the `Simplified Stealth/fonts` subdirectory into OS X, and restart the app.
-
 ## Screenshot
 If the theme installed correctly, you should see something like this, when you select it in the app:
 
@@ -29,7 +27,6 @@ If the theme installed correctly, you should see something like this, when you s
 
 ## Todos
 
- * Get `@font-face` working properly so that the font doesn't need to be installed.
  * Ensure all the visual styles are accounted for.
  * Look into other possible app UI styling options.
 
